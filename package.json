@@ -1,0 +1,24 @@
+{
+  "name": "firestore-batch-paginator",
+  "version": "1.0.0",
+  "description": "Library for paginating Firebase Cloud Firestore Batches when more than 500 entries are required. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src/index.js --out-file ./index.js"
+  },
+  "keywords": [
+    "Firebase",
+    "Cloud",
+    "Firestore",
+    "Batch",
+    "Pagination"
+  ],
+  "author": "Charlie Hall",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}
